@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://flexirents.com/api',
+  baseURL: 'https://flexirents.com',
 })
 
 api.interceptors.request.use((config) => {
